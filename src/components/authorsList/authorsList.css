@@ -1,0 +1,31 @@
+.authorList{
+    width: 80%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.authorListItem{
+   flex: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.authorListImg{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+
+}
+
+.authorListTitles>h1{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.authorListTitles>h2{
+    font-size: 14px;
+}

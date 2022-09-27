@@ -1,0 +1,115 @@
+.accessories {
+    
+    border: 2px solid lightgray;
+    box-sizing: content-box;
+    padding: 7px;
+    border-radius: 30px;
+    display: 20px;
+    justify-content:space-between;
+    gap: 10px;
+    margin-bottom: 15px;
+    
+}
+.accessoriesImg{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.accessoriesDesc{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 2;
+}
+
+.accessoriesTitle{
+    font-size: 20px;
+    color: #1c2921  ; 
+}
+
+.accessoriesDetails {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.accessoriesType{
+    font: 12px;
+}
+
+.accessoriesRate{
+    font-size: 12px;
+    background-color: #31473A;
+    color: red;
+    width: max-content;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.accessoriesLanguage{
+    font-size: 12px;
+}
+
+.accessoriesFeatures{
+    font-size: 12px;
+
+}
+
+.accessoriesActors {
+    font-size: 12px;
+    color: #31473A ;
+    font-weight: bold;
+}
+
+.accessoriesListActors{
+    font-size: 12px;
+    color: #31473A ;
+}
+
+.accessoriesRating{
+    display: flex;
+    justify-content: space-between;
+}
+
+.accessoriesRating>span{
+    font-weight: 500;
+}
+
+.accessoriesRating > button{
+    background-color: #31473A ;
+    color: #EDF4F2;
+    padding: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+.accessoriesDetailTexts{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 5;
+}
+
+.accessoriesPrice {
+    font-size: 24px;
+}
+
+.accessoriesRate {
+    font-style: 12px;
+    color: gray;
+}
+
+.accessoriesCheckButton {
+    background-color: #31473A ;
+    color: white;
+    font-weight: bold;
+    padding: 10px 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: max-content;
+    margin-left: 25em;
+}
