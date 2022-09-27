@@ -9,10 +9,10 @@ const Books = () => {
         <Header/>
         
         <div className="books">
-            <img src="https://pbx2-pbww-prod-pbww-cdn.getprintbox.com/media/productimage/24ac68ff-4529-4d75-8eff-29cd8c39600e/Blank%20Bookmarks_thumb_900x900" alt="" className="siImg" />
-            <div className="booksDesc">
-                <h1 className="booksTitle">Book Mark</h1>
-                <span className="booksType">Book accessorie</span>
+            <img src="https://s.yimg.com/uu/api/res/1.2/0GBXd289dMqVEPaqTl4x5w--~B/aD0xNTAwO3c9MTAzNTthcHBpZD15dGFjaHlvbg--/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/d05a3f087fa57f6d41b865d53a42a5f5" alt="" className="siImg" />
+            <div className="siDesc">
+                <h1 className="booksTitle">Moonlight</h1>
+                <span className="booksType">Romance</span>
                 <span className="booksRate">8.5</span>
                 <span className="booksLanguage">English</span>
                 <span className="booksFeatures">Features</span>
@@ -30,7 +30,7 @@ const Books = () => {
                             <button>9</button>
                         </div>
                         <div className="booksDetailTexts">
-                            <span className="booksPrice">$15</span>
+                            <span className="booksPrice">$100</span>
                             <span className="booksTaxOp">includes what?</span>
                             <button className="booksCheckButton">See availability</button>
                         </div>
