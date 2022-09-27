@@ -3,15 +3,15 @@ import "./searchItem.css"
 const SearchItem = () => {
     return(
         <div className="searchItem">
-            <img src="https://s.yimg.com/uu/api/res/1.2/0GBXd289dMqVEPaqTl4x5w--~B/aD0xNTAwO3c9MTAzNTthcHBpZD15dGFjaHlvbg--/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/d05a3f087fa57f6d41b865d53a42a5f5" alt="" className="siImg" />
+            <img src="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/darkknight.building.24x36_480x.progressive.jpg?v=1648745678" alt="" className="siImg" />
             <div className="siDesc">
-                <h1 className="siTitle">Moonlight</h1>
-                <span className="siType">Romance</span>
+                <h1 className="siTitle">The dark Knight</h1>
+                <span className="siType">Action</span>
                 <span className="siRate">8.5</span>
                 <span className="siLanguage">English</span>
-                <span className="siFeatures">Features</span>
+                <span className="siFeatures">2008 · 2h 32m</span>
                 <span className="siActors">Actors</span>
-                <span className="siListActors">Actor 1, 2, 3</span>
+                <span className="siListActors">Christian Bale, Heath Ledger</span>
             
            
            
@@ -20,13 +20,12 @@ const SearchItem = () => {
                 <div className="siDetails">
                     <div className="searchItemRating">
                         <div className="siRating">
-                            <span>Excellent</span>
-                            <button>9</button>
+                            
                         </div>
                         <div className="siDetailTexts">
-                            <span className="siPrice">$100</span>
-                            <span className="siTaxOp">includes what?</span>
-                            <button className="siCheckButton">See availability</button>
+                            
+                            
+                            <button className="siCheckButton">Watch</button>
                         </div>
                     </div>
                     </div>

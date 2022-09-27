@@ -49,25 +49,6 @@
     border-radius: 5px;
 }
 
-.accessoriesLanguage{
-    font-size: 12px;
-}
-
-.accessoriesFeatures{
-    font-size: 12px;
-
-}
-
-.accessoriesActors {
-    font-size: 12px;
-    color: #31473A ;
-    font-weight: bold;
-}
-
-.accessoriesListActors{
-    font-size: 12px;
-    color: #31473A ;
-}
 
 .accessoriesRating{
     display: flex;

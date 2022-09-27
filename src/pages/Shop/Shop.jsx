@@ -1,52 +1,43 @@
+import Navbar from "../../components/navbar/Navbar";
+import Header from "../../components/header/Header";
 import "./shop.css"
 
-
-
-const Shop  = () => {
-
-    const photos = [
-        {
-            src: "https://i.pinimg.com/736x/3d/09/19/3d0919bb0f178a0755b84024c1633917.jpg"
-        },
-
-        {
-            src: "https://cdn.shopify.com/s/files/1/0033/3434/0723/products/PP30791_500x.jpg?v=1589937957"
-        },
-
-        {
-            src: "https://img.moviepostershop.com/the-shawshank-redemption-movie-poster-1994-1020191906.jpg"
-        },
-        {
-            src: "https://s.yimg.com/uu/api/res/1.2/0GBXd289dMqVEPaqTl4x5w--~B/aD0xNTAwO3c9MTAzNTthcHBpZD15dGFjaHlvbg--/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/d05a3f087fa57f6d41b865d53a42a5f5"
-        },
-    ];
-    return (
-    <div>
+const Shop = () => {
+    return(
+        <div>
+            <Navbar/>
+        <Header/>
         
-        <div className="shopContainer">
-            <div className="shopWraper">
-                <h1 className="shopTitle">Shopping Cart</h1>
+        <div className="shop">
+            <img src="https://media.istockphoto.com/vectors/shopping-cart-icon-isolated-on-white-background-vector-id1206806317?k=20&m=1206806317&s=612x612&w=0&h=waK8qOHV2Fgz2ntEWHWBQtXpNDAQ_wdhd4tkTUz6tfE=" alt="" className="siImg" />
+            <div className="shopDesc">
+                <h1 className="shopTitle">OnlineShopping</h1>
+                <span className="shopType">Select your favorite item by choise and have it on your doorstep the next 48h.</span>
                 
-                <span>Lorem, ipsum dolor sit amet consectetur adipisic</span>
-
-            </div>
-            <div className="shopDirector">
-                <span>Product Name</span>
-            </div>
+                
+                
+                <span className="shopActors">Shopping Cart</span>
+                <span className="shopListActors">Please Register or Login in order to use this feature!</span>
             
-            <div className="shopsprice">
-                <span>This product costs 100$</span>
+           
+           
+           
             </div>
-        <div className="productImages">
-            {photos.map(photo=>(
-                <div className="productImageWrapper">
-                    <img src= {photo.src} alt="" />
-                </div>
-           ) )}
-        </div>
-        </div>
-    </div>
-    );
-};
+                <div className="shopDetails">
+                    <div className="shopRating">
+                        <div className="shopRating">
+                            
+                        </div>
+                        <div className="shopDetailTexts">
+                            
+                            
+                            <button className="shopCheckButton">Register/Login</button>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+            </div>
+    )
+}
 
-export default Shop
+export default Shop;

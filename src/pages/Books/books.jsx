@@ -9,15 +9,15 @@ const Books = () => {
         <Header/>
         
         <div className="books">
-            <img src="https://s.yimg.com/uu/api/res/1.2/0GBXd289dMqVEPaqTl4x5w--~B/aD0xNTAwO3c9MTAzNTthcHBpZD15dGFjaHlvbg--/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/d05a3f087fa57f6d41b865d53a42a5f5" alt="" className="siImg" />
+            <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555447414l/44767458.jpg" alt="" className="siImg" />
             <div className="siDesc">
-                <h1 className="booksTitle">Moonlight</h1>
-                <span className="booksType">Romance</span>
+                <h1 className="booksTitle">Dune</h1>
+                <span className="booksType">Fantasy Fiction, Planetary Romance</span>
                 <span className="booksRate">8.5</span>
                 <span className="booksLanguage">English</span>
-                <span className="booksFeatures">Features</span>
-                <span className="booksActors">Actors</span>
-                <span className="booksListActors">Actor 1, 2, 3</span>
+                
+                <span className="booksActors">Characters</span>
+                <span className="booksListActors">Paul Atreides, Duke Leto, Lady Jessica</span>
             
            
            
@@ -26,13 +26,12 @@ const Books = () => {
                 <div className="booksDetails">
                     <div className="booksRating">
                         <div className="booksRating">
-                            <span>Excellent</span>
-                            <button>9</button>
+                            
                         </div>
                         <div className="booksDetailTexts">
-                            <span className="booksPrice">$100</span>
-                            <span className="booksTaxOp">includes what?</span>
-                            <button className="booksCheckButton">See availability</button>
+                            <span className="booksPrice">$15</span>
+                            
+                            <button className="booksCheckButton">Add to cart</button>
                         </div>
                     </div>
                     </div>

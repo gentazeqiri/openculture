@@ -1,49 +1,44 @@
+import Navbar from "../../components/navbar/Navbar";
+import Header from "../../components/header/Header";
 import "./authors.css"
 
-
-
-const Authors  = () => {
-
-    const photos = [
-        {
-            src: "https://i.pinimg.com/736x/3d/09/19/3d0919bb0f178a0755b84024c1633917.jpg"
-        },
-
-        {
-            src: "https://cdn.shopify.com/s/files/1/0033/3434/0723/products/PP30791_500x.jpg?v=1589937957"
-        },
-
-        {
-            src: "https://img.moviepostershop.com/the-shawshank-redemption-movie-poster-1994-1020191906.jpg"
-        },
-        {
-            src: "https://s.yimg.com/uu/api/res/1.2/0GBXd289dMqVEPaqTl4x5w--~B/aD0xNTAwO3c9MTAzNTthcHBpZD15dGFjaHlvbg--/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/d05a3f087fa57f6d41b865d53a42a5f5"
-        },
-    ];
-    return (
-    <div>
+const Authors = () => {
+    return(
+        <div>
+            <Navbar/>
+        <Header/>
         
-        <div className="authorsContainer">
-            <div className="authorsWraper">
+        <div className="authors">
+            <img src="https://images.gr-assets.com/authors/1464032240p8/5430144.jpg" alt="" className="siImg" />
+            <div className="authorsDesc">
+                <h1 className="authorsTitle">Colleen Hoover</h1>
+                <span className="authorsType">Best Seller Authors</span>
+                <span className="authorsRate">8.5</span>
+                <span className="authorsLanguage">English</span>
                 
-                <span>Lorem, ipsum dolor sit amet consectetur adipisic</span>
-
-            </div>
-            <div className="authorsDirector">
-                <span>Author name</span>
-            </div>
+                <span className="authorsActors">Quote</span>
+                <span className="authorsListActors">“Push your boundaries, that's what they're there for.”</span>
             
-            
-        <div className="authorsImages">
-            {photos.map(photo=>(
-                <div className="authorsImageWrapper">
-                    <img src= {photo.src} alt="" />
-                </div>
-           ) )}
-        </div>
-        </div>
-    </div>
-    );
-};
+           
+           
+           
+            </div>
+                <div className="authorsDetails">
+                    <div className="authorsRating">
+                        <div className="authorsRating">
+                           
+                            
+                        </div>
+                        <div className="authorsDetailTexts">
+                            
+                            
+                            <button className="authorsCheckButton">Read</button>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+            </div>
+    )
+}
 
-export default Authors
+export default Authors;

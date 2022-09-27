@@ -1,0 +1,108 @@
+.ebooks {
+    border: 2px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    display: 5px;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.ebooksImg{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.ebooksDesc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+
+.ebooksTitle{
+    font-size: 20px;
+    color: #0071c2; 
+}
+
+.ebooksDetails {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ebooksType{
+    font: 12px;
+}
+
+.ebooksRate{
+    font-size: 12px;
+    background-color: #31473A;
+    color: red;
+    width: max-content;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.ebooksLanguage{
+    font-size: 12px;
+}
+
+.ebooksFeatures{
+    font-size: 12px;
+
+}
+
+.ebooksActors {
+    font-size: 12px;
+    color: #31473A ;
+    font-weight: bold;
+}
+
+.ebooksListActors{
+    font-size: 12px;
+    color: #31473A ;
+}
+
+.ebooksRating{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ebooksRating>span{
+    font-weight: 500;
+}
+
+.ebooksRating > button{
+    background-color: #31473A ;
+    color: #EDF4F2;
+    padding: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+.ebooksDetailTexts{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 5;
+}
+
+
+
+.ebooksRate {
+    font-style: 12px;
+    color: gray;
+}
+
+.ebooksCheckButton {
+    background-color: #31473A ;
+    color: white;
+    font-weight: bold;
+    padding: 10px 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
